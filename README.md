@@ -17,7 +17,7 @@ Telegram bot for storing posts and documents, accessible via special links.
 - **Fully Customizable:** Tailor the bot to fit your needs perfectly.
 - **Welcoming Messages:** Greet your users with personalized welcome and ForceSub messages.
 - **Efficient Link Generation:** Easily create links for multiple posts or individual posts.
-- **Heroku Deployment:** [Deploy on Heroku](https://heroku.com/deploy/https://github.com/Loveisblind0/File-Store-Url-Shortner-Bot)
+- **Heroku Deployment:** [Deploy on Heroku](https://heroku.com/deploy?template=https://github.com/Loveisblind0/File-Store-Url-Shortner-Bot)
 
 ## Setup
 
