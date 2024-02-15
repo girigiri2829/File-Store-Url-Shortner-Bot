@@ -57,7 +57,10 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
+USER_REPLY_TEXT = "உங்களுக்கு ஏதாவது சந்தேகம் இருந்தால் இந்த bot @Gi_Serials_Owner_bot மூலம் எங்களது உரிமையாளருக்கு message செய்யலாம் 
+
+Connect this bot👇
+@Gi_Serials_Owner_bot""
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1531899507)
