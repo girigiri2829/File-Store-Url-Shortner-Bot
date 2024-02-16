@@ -45,7 +45,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hi {first} {last}/n/nதயவு செய்து நமது சேனலுக்கு ஆதரவு கொடுங்கள் தயவு செய்து நமது Join செய்யுங்கள் மேலும் தமிழ் சீரியல்களை கண்டு மகிழுங்கள் நமது சேனலில் Join செய்ய Join Channel என்ற பட்டனை கிளிக் செய்யவும்")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hi {first}/n/nதயவு செய்து நமது சேனலுக்கு ஆதரவு கொடுங்கள் தயவு செய்து நமது Join செய்யுங்கள் மேலும் தமிழ் சீரியல்களை கண்டு மகிழுங்கள் நமது சேனலில் Join செய்ய Join Channel என்ற பட்டனை கிளிக் செய்யவும்")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
@@ -57,7 +57,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "உங்களுக்கு ஏதாவது சந்தேகம் இருந்தால் இந்த bot @Gi_Serials_Owner_bot மூலம் எங்களது உரிமையாளருக்கு message செய்யலாம் Connect this bot👇 @Gi_Serials_Owner_bot""
+USER_REPLY_TEXT = "Any Questions or Any Serial Request/nConnect this bot👇 @Gi_Serials_Owner_bot"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(2135601715)
