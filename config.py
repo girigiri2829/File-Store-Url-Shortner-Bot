@@ -36,7 +36,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001559855851"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nநீங்கள் எப்படி இருக்கிறீர்கள்? உங்களுக்கு தேவையான தமிழ் சீரியல்களை இங்கே காணலாம் how are you?")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first} ✨/n/nWelcome To Gi All Serials Bot.You Can Watch TV Serials Of This Bot.How Are You?")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "1964685925 1781188088").split()):
@@ -45,7 +45,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hi {first}/n/nதயவு செய்து நமது சேனலுக்கு ஆதரவு கொடுங்கள் தயவு செய்து நமது Join செய்யுங்கள் மேலும் தமிழ் சீரியல்களை கண்டு மகிழுங்கள் நமது சேனலில் Join செய்ய Join Channel என்ற பட்டனை கிளிக் செய்யவும்")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hi {first} 💖/n/nWelcome To My Bot.Please Join My Channel And Watch Your Favorite SerialClick "Join Channel" Button And Send /start command And Watch Your Favorite Serial")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
@@ -57,7 +57,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "Any Questions or Any Serial Request Connect this bot👇 @Gi_Serials_Owner_bot"
+USER_REPLY_TEXT = "Any Questions or Any Serial Request, Connect this bot👇 @Gi_Serials_Owner_bot"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(2135601715)
