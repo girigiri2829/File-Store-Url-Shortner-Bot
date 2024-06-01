@@ -45,7 +45,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hi {mention} 💖 Welcome To My Bot.Please Join My Channel And Watch Your Favorite Serial Click Join Channel Button And Send start command And Watch Your Favorite Serial")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hi {mention} 💖\n\nWelcome To My Bot\nYou Can Watch Your Favorite Serial! Just Click "Join Channel" Button And Please Join My Channel And\nSend /start command And Watch Your Favorite Serial")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
@@ -57,13 +57,13 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "Any Questions or Any Serial Request, Connect this bot @Gi_Serials_Owner_bot"
+USER_REPLY_TEXT = "<b>Hello {Full}\n\nAny Questions Or Any Serial Request 
+@Gi_Serials_Owner_bot Connect Me Via This Bot! 👆</b>"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(2135601715)
 
 LOG_FILE_NAME = "filesharingbot.txt"
-
 logging.basicConfig(
     level=logging.INFO,
     format="[%(asctime)s - %(levelname)s] - %(name)s - %(message)s",
